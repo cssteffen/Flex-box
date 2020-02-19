@@ -1,0 +1,36 @@
+body {
+	margin: 0px;
+}
+
+h1 {
+	font-family: fantasy;
+	font-size: 3em;
+	text-align: center;
+	border-bottom: 2px solid gray;
+	width: 400px;
+	border-right: 2px solid gray;
+	/* canIuse.com */
+	-moz-box-shadow:; /* old way to work on mozilla browser*/
+	-ms-box-shadow:;/* old way to work on internet explore browser*/
+	margin: 0px;
+	box-shadow: 4px 4px 5px #888;
+	margin-top: 10px;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+img {
+	width: 450px;
+	/*height: 300px;*/
+	margin: 10px;
+	transition: all 1s;
+}
+
+img:hover {
+	transform: scale(1.1);
+	/*animation:;*/
+}
